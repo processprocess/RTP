@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<group>
+	<radius>281.15</radius>
+	<margin>130</margin>
+	<numEls>6</numEls>
+	<elGutter>19</elGutter>
+	<numRows>17</numRows>
+	<maxRand>0.215</maxRand>
+	<maxDrift>0.6</maxDrift>
+</group>
