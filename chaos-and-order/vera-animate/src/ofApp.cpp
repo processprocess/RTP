@@ -4,6 +4,7 @@
 void ofApp::setup(){
     width = ofGetWidth();
     height = ofGetHeight();
+    appname = ofFilePath::getBaseName(ofFilePath::getCurrentExePath());
     
     gui.setup();
     gui.add(margin.setup("margin", 130, 10, 200));
@@ -35,7 +36,7 @@ void ofApp::draw(){
     ofSetColor(ofColor(255,255,255));
     
     if(saveSVG) {
-        ofBeginSaveScreenAsSVG("screenshot.svg");
+        ofBeginSaveScreenAsSVG(appname+"_"+ofGetTimestampString()+".svg");
     }
     
     for(int x = 0; x < numRows; x++) {

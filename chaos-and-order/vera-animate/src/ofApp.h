@@ -26,6 +26,7 @@ class ofApp : public ofBaseApp{
     
         int width;
         int height;
+        string appname;
     
         float tick;
     

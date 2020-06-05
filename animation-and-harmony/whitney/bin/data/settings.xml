@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<group>
+	<radius>2</radius>
+	<margin>130</margin>
+	<numEls>16</numEls>
+	<elGutter>13</elGutter>
+	<numRows>35</numRows>
+	<maxRand>0.33</maxRand>
+	<maxDrift>0.33</maxDrift>
+	<noiseZoom>0.1</noiseZoom>
+	<bgOpacity>10</bgOpacity>
+	<frequency>2</frequency>
+	<amplitude>141.525</amplitude>
+	<phase>1</phase>
+	<distnc>62</distnc>
+	<colorScale>0.31195</colorScale>
+</group>

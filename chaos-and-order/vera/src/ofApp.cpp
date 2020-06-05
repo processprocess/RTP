@@ -4,6 +4,7 @@
 void ofApp::setup(){
     width = ofGetWidth();
     height = ofGetHeight();
+    appname = ofFilePath::getBaseName(ofFilePath::getCurrentExePath());
     
     gui.setup();
     gui.add(margin.setup("margin", 200, 10, 200));
@@ -39,7 +40,7 @@ void ofApp::draw(){
     
 //    ofEnableBlendMode(OF_BLENDMODE_MULTIPLY);
     if(saveSVG) {
-        ofBeginSaveScreenAsSVG("screenshot.svg");
+        ofBeginSaveScreenAsSVG(appname+"_"+ofGetTimestampString()+".svg");
     }
     
     float elSize = (width - margin * 2) / numRows;
